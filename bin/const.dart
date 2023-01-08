@@ -14,7 +14,7 @@ void main(List<String> args) {
 
   names.add('Smith');
 
-  // compile-time error: Unhandled exception: Unsupported operation: Cannot add to an unmodifiable list
+  // run-time error: Unhandled exception: Unsupported operation: Cannot add to an unmodifiable list
 
-  
+
 }
